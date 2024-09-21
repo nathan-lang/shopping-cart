@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  background: #d2ebff;
+}
+
+.nav-bar {
+  display: flex;
+  height: 14vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  background: #87c6ff;
+}
+
+.cart-logo {
+  height: 5vh;
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25vh;
+}
+
+.info {
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.home-link {
+  /* color: black gets rid of the blue or purple text color, and text-decoration: none gets rid of the underline. */
+  color: black;
+  text-decoration: none;
+}
+
+.shop-link {
+  /* color: black gets rid of the blue or purple text color, and text-decoration: none gets rid of the underline. */
+  color: black;
+  text-decoration: none;
+}
+
+.shop-title {
+  text-align: center;
+}
+
+.item-list {
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+  width: 100vw;
+  display: inline-grid;
+  grid-template: repeat(4, 20vh) / repeat(4, 20vw);
+  row-gap: 25vh;
+  column-gap: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.item-img {
+  height: 15vh;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cart-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
