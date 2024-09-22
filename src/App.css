@@ -5,7 +5,7 @@ body {
   font-weight: 200;
   font-style: normal;
   margin: 0;
-  background: #d2ebff;
+  background: white;
 }
 
 .nav-bar {
@@ -14,7 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10vw;
-  background: #87c6ff;
+  background: #d2ebff;
+  box-shadow: 3px 3px 5px #d2ebff;
 }
 
 .cart-logo {
